@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+header, hgroup, menu, nav {
 	display: block;
 }
 body {
@@ -59,8 +59,22 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     margin-bottom: 15px;
 }
+
+h1 {font-size: 60px;}
+
+.topsection {display: inline-block;
+	width: 40%;}
+
+.bottomsection {display: inline-block; 
+width: 30%; } 
+
+footer {color: red;
+	text-align: center;}
+
+
+
 
 /* Your code starts here! */
