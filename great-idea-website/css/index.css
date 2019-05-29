@@ -14,7 +14,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, output, ruby, section, summary,
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, section {
+header, hgroup, menu, nav {
 	display: block;
 }
 body {
@@ -59,70 +59,22 @@ html, body {
 
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     margin-bottom: 15px;
 }
 
+h1 {font-size: 60px;}
+
+.topsection {display: inline-block;
+	width: 40%;}
+
+.bottomsection {display: inline-block; 
+width: 30%; } 
+
+footer {color: red;
+	text-align: center;}
+
+
+
+
 /* Your code starts here! */
-
-header {font-size: 80px;
-
-}
-.top {
-	margin-top: 60px;
-	display: flex;
-	flex-direction: row;
-}
-
-.top .header
-{
-	flex: 1;
-}
-
-.header .text { 
-	margin-top: 120px;
-	text-align: center;
-}
-
-.btn { 
-	margin-top: 40px;
-}
-
-.navigation {
-	display: inline-block;
-}
-
-
-.top-content .item { 
-	
-	width: 40%;
-	display: inline-block;
-	margin: 30px;
-	border-top: 2px solid black; 
-}
-
-.bottom-content .item2 {
-
-	width: 20%;
-	display: inline-block;
-	margin: 30px;
-	border-bottom: 2px solid black; 
-}
-
-.contact{
-	margin: 30px;
-}
-
-footer{
-	text-align: center;
-}
-
-.navigation
-{display: block;
-	word-spacing: 50px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;}
-
-
-  .middle-img {margin: 30px;}
